@@ -1,7 +1,7 @@
 local URL = require "socket.url"
 local https = require "ssl.https"
 local serpent = require "serpent"
-local json = (loadfile "/home/root/securitygp/JSON.lua")()
+local json = (loadfile "/root/securitygp/JSON.lua")()
 local token = '275649365:AAGgghXKxkDNiQg8stu964Dnn_NO36F8JTw' --token
 local url = 'https://api.telegram.org/bot' .. token
 local offset = 0
