@@ -1,5 +1,5 @@
-bot = dofile('/home/username/inline/utils.lua')
-json = dofile('/home/username/inline/JSON.lua')
+bot = dofile('/root/securitygp/utils.lua')
+json = dofile('/root/securitygp/JSON.lua')
 URL = require "socket.url"
 serpent = require("serpent")
 http = require "socket.http"
@@ -7,9 +7,9 @@ https = require "ssl.https"
 redis = require('redis')
 db = redis.connect('127.0.0.1', 6379)
 BASE = '/home/username/inline/'
-SUDO = 30410709 --sudo id
-sudo_users = {30410709,123456789,Userid}
-BOTS = 00000000 --bot id
+SUDO = 342293523 --sudo id
+sudo_users = {342293523,123456789,Userid}
+BOTS = 328715341 --bot id
 bot_id = db:get(SUDO..'bot_id')
 function vardump(value)
   print(serpent.block(value, {comment=false}))
@@ -882,7 +882,7 @@ end
             end
           tdcli_function({
       ID = "GetInlineQueryResults",
-      bot_user_id_ = 254778917,
+      bot_user_id_ = 275649365,
       chat_id_ = msg.chat_id_,
       user_location_ = {
         ID = "Location",
